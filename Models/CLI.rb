@@ -6,4 +6,6 @@ class Application
     @@user = gets.chomp
     puts "Hello #{@@user}! Here's "
     @@response = gets.chomp"
+
+
     
