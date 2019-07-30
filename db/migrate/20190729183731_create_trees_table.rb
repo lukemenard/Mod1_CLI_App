@@ -8,7 +8,7 @@ class CreateTreesTable < ActiveRecord::Migration[5.2]
       t.string :bark_color
       t.string :bark_texture
       t.string :leaf_type
-      t.string :lef_arrangement
+      t.string :leaf_arrangement
       t.string :leaf_shape
       t.string :needle_shape
       t.string :cone_type
