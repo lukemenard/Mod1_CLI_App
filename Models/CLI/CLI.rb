@@ -1,6 +1,6 @@
 require "pry"
 require_relative "./main_menu_methods"
-require_relative "./question_1"
+require_relative "./Question_1/question_1"
 
 class Application
 

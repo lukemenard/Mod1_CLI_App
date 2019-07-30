@@ -10,9 +10,9 @@ class Question1
     @@response = gets.chomp.to_i
 
     if @@response == 1
-      Question1.question_one
+      Question2conifer.question_two
     elsif @@response == 2
-      MainMenuMethod.list_all_trees
+      Question2deciduous.question_two
     elsif @@response == 3
       MainMenuMethod.list_trees_by_characteristics
     elsif @@response == 4

@@ -1,4 +1,3 @@
-
 class MainMenuMethod
   system "clear"
   def self.list_all_trees
