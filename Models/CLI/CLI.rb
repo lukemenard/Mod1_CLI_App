@@ -7,13 +7,16 @@ class Application
   @@user = nil
 
   def self.get_username
+    system "clear"
     puts "Hello! Welcome to the Colorado Tree ID App! What's your name?"
     @@user = gets.chomp
   end
   Application.get_username
 
+  system "clear"
+
   def self.main_menu
-    puts "Hello #{@@user}! What would you like to do today?"
+    puts "Hello, #{@@user}! What would you like to do today?"
     puts "    1. Identify a tree."
     puts "    2. See a list of all available trees."
     puts "    3. See a list of all available trees by characteristic."
@@ -34,7 +37,5 @@ class Application
     end
   end
   Application.main_menu
-
-
 
 end
