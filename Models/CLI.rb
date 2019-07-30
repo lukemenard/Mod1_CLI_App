@@ -42,7 +42,7 @@ class Application
       Help.main_menu_help
     else
       puts "Please enter a number between 1 and 4"
-      # self.main_menu
+      self.main_menu
     end
   end
   self.main_menu
