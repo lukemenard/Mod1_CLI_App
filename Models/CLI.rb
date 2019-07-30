@@ -15,7 +15,7 @@ class Application
     system "clear"
     puts "Hello! Welcome to the Colorado Tree ID App!".white.on_green
     puts "What's your name?".white.on_green
-    @@user = gets.chomp
+    # @@user = gets.chomp
   end
   self.get_username
 
@@ -29,9 +29,9 @@ class Application
     puts "    2. See a list of all available trees."
     puts "    3. See a list of all available trees by characteristic."
     puts "    4. Learn how to use this app."
-    @@response = gets.chomp.to_i
+    # @@response = gets.chomp.to_i
 
-    case @@response
+    # case @@response
     when 1
       Question.question_one
     when 2
@@ -51,7 +51,7 @@ class Application
 # ____________Question_1___________________________
 
   def self.question_one
-    case @@response
+    # case @@response
     when 1
       @@type = "coniferous"
       Question.question_two_conifer
