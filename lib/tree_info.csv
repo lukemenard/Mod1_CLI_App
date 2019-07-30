@@ -1,0 +1,21 @@
+Common Species Name,Common Family Name,Coniferous/Deciduous,Scientific Name,Bark Color,Bark Texture,Leaf Type,Leaf Arrangement,Leaf Shape,Needle Shape,Cone Type,Fruit,Min Elevation,Max Elevation,Min Height,Max Height,Twig Texture,Flower Shape,Flower Color,Habitat
+Blue Spruce,Pine,Coniferous,Picea pungens,gray-brown,Furrowed,Needle,,,Sharp,Woody,Cone,6700,11500,70,115,Smooth,,,foothills/montane
+Boxelder,Maple,Coniferous,Acer negundo,gray-brown,Furrowed,Leaf,Opposite,Pinnate,,,Samara,4000,10000,5,35,Smooth,Inconspicuous,Green,plains/foothills
+Bristlecone Pine,Pine,Coniferous,Pinus aristata,red-brown,Furrowed,Needle,,,Clusters of 5,Woody,Cone,9200,11800,15,30,Smooth,,,montane/subalpine
+Chokecherry,Rose,Deciduous,Prunus virginiana,red-brown,Bumpy,Leaf,Alternate,Oblanceolate,,,Fleshy,5000,10000,10,15,Smooth,Star or Cross Shaped,White,plains/foothills
+Douglas Fir,Pine,Coniferous,Pseudotsuga menziesii,red-brown,Furrowed,Needle,,,Flat,Papery,Cone,6000,9500,100,130,Rough,,,foothills/montane
+Engelmann Spruce,Pine,Coniferous,Picea engelmannii,gray-brown,Scaled,Needle,,,Sharp,Woody,Cone,8000,11000,45,130,Hairy,,,montane/subalpine
+Gambel Oak,Oak,Deciduous,Quercus gambelii,gray-brown,Scaled,Leaf,Alternate,Lobed,,,Acorn,4000,8500,10,15,Smooth,Inconspicuous,Green,foothills
+Limber Pine,Pine,Coniferous,Pinus flexilis,brown,Furrowed,Needle,,,Clusters of 5,Woody,Cone,5000,12000,40,50,Smooth,,,montane/subalpine
+Lodgepole Pine,Pine,Coniferous,Pinus contorta,brown,Scaled,Needle,,,Clusters of 2-3,Woody,Cone,6000,11000,20,80,Smooth,,,montane/subalpine
+Narrowleaf Cottonwood,Willow,Deciduous,Populus angustifolia,gray-brown,Furrowed,Leaf,Alternate,Narrow,,,Capsule,5000,8000,30,60,Smooth,Inconspicuous,Red,foothills/montane
+Peachleaf Willow,Willow,Deciduous,Salix amygdaloides,red-brown,Smooth,Leaf,Alternate,Narrow,,,Capsule,3500,7500,10,40,Smooth,Inconspicuous,Yellow,foothills/montane
+Pinyon Pine,Pine,Coniferous,Pinus edulis,red-brown,Furrowed,Needle,,,Clusters of 5,Woody,Cone,5200,9000,20,50,Rough,,,foothills/montane
+Plains Cottonwood,Willow,Deciduous,Populus deltoides,gray,Furrowed,Leaf,Alternate,Deltoid,,,Capsule,3500,6500,36,190,Smooth,Inconspicuous,Red,lower river valleys
+Ponderosa Pine,Pine,Coniferous,Pinus ponderosa,red-brown,Furrowed,Needle,,,Clusters of 2-3,Woody,Cone,6300,9500,40,160,Rough,,,foothills/montane
+Quaking Aspen,Willow,Deciduous,Populs tremuloides,gray,Smooth,Leaf,Alternate,Orbicular,,,Capsule,6500,11500,35,50,Smooth,Inconspicuous,White,foothills/montane
+Rocky Mountain Maple,Maple,Deciduous,Acer glabrum,gray-brown,Smooth,Leaf,Opposite,Palmate,,,Samara,3000,10000,20,30,Smooth,Other,Yellow,foothills/montane
+Rocky Mountan Juniper,Cypress,Coniferous,Juniperus scopulorum,gray-brown,Scaled,Needle,,,Scaled,Berry,Cone,5000,9000,20,50,Peeling,,,foothills/montane
+Subalpine Fir,Pine,Coniferous,Abies lasiocarpa,gray-brown,Furrowed,Needle,,,Flat,Woody,Cone,8000,12000,60,100,Smooth,,,montane/subalpine
+Thinleaf Alder,Birch,Deciduous,Alnus tenuifolia,gray-brown,Bumpy,Leaf,Alternate,Orbicular,,,Samara,5000,10000,15,40,Smooth,Inconspicuous,Red,montane
+White Fir,Pine,Coniferous,Abies concolor,gray,Furrowed,Needle,,,Flat,Woody,Cone,7900,10200,60,125,Smooth,,,montane
