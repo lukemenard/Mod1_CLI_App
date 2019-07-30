@@ -1,5 +1,6 @@
-class MainMenuMethod
-  system "clear"
+class Help
+  # system "clear"
+
   def self.list_all_trees
     puts "Hello"
   end

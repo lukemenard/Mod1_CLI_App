@@ -1,19 +1,25 @@
 require "pry"
-require_relative "./main_menu_methods"
-require_relative "./Question_1/question_1"
+require_relative "./help"
+require_relative "./questions.rb"
+require_relative "../config/environment.rb"
 
 class Application
+
+# ____________TITLE_PAGE___________________________
 
   @@user = nil
 
   def self.get_username
     system "clear"
-    puts "Hello! Welcome to the Colorado Tree ID App! What's your name?"
+    puts "Hello! Welcome to the Colorado Tree ID App! What's your name?".white.on_green
     @@user = gets.chomp
   end
-  Application.get_username
+  self.get_username
 
   system "clear"
+
+
+# ____________MAIN_MENU___________________________
 
   def self.main_menu
     puts "Hello, #{@@user}! What would you like to do today?"
@@ -24,18 +30,18 @@ class Application
     @@response = gets.chomp.to_i
 
     if @@response == 1
-      Question1.question_one
+      Question.question_one
     elsif @@response == 2
-      MainMenuMethod.list_all_trees
+      Help.list_all_trees
     elsif @@response == 3
-      MainMenuMethod.list_trees_by_characteristics
+      Help.list_trees_by_characteristics
     elsif @@response == 4
-      MainMenuMethod.main_menu_help
+      Help.main_menu_help
     else
       puts "Please choose a correct choice: 1 - 4"
-      self.main_menu
+      # self.main_menu
     end
   end
-  Application.main_menu
+  self.main_menu
 
 end

@@ -1,4 +1,4 @@
-class Question1
+class Question
 
   def self.question_one
     system "clear"
@@ -10,19 +10,33 @@ class Question1
     @@response = gets.chomp.to_i
 
     if @@response == 1
-      Question2conifer.question_two
+      Question.question_two_conifer
     elsif @@response == 2
-      Question2deciduous.question_two
+      Question.question_two_deciduous
     elsif @@response == 3
       MainMenuMethod.list_trees_by_characteristics
     elsif @@response == 4
-      MainMenuMethod.main_menu_help
+      Application.main_menu
     else
-      puts "Please choose a correct choice: 1 - 4"
+      puts "Please enter a number between 1 and 4"
       self.main_menu
     end
+  end
 
+
+
+  def self.question_two_conifer
 
   end
+
+
+
+  def self.question_two_deciduous
+
+  end
+
+
+
+
 
 end
