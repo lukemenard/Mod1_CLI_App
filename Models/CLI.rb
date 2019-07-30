@@ -59,7 +59,7 @@ class Application
       @@type = "deciduous"
       Question.question_two_deciduous
     when 3
-      MainMenuMethod.list_trees_by_characteristics
+      Help.list_trees_by_characteristics
     when 4
       Application.main_menu
     else

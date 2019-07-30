@@ -85,6 +85,23 @@ def self.question_five_conifer
   @@response = gets.chomp.to_i
 end
 
+# ____________Question_6_Coniferous_Twigs___________________________
+
+def self.question_six_conifer
+  system "clear"
+  puts "Your bark is XX! There are XX trees available."
+  puts "What texture are the tree's twigs?"
+  puts "    1. Twigs are smooth."
+  puts "    2. Twigs are hairy."
+  puts "    3. Twigs are rough."
+  puts "    4. Twigs are peeling."
+  puts "    5. Twigs are thorny."
+  puts "    6. Twigs are sticky."
+  puts "    7. See a list of x remaining trees."
+  @@response = gets.chomp.to_i
+end
+
+
 
 
 #__________________Deciduous_______________________________
@@ -120,7 +137,7 @@ end
     @@response = gets.chomp.to_i
   end
 
-  # ____________Question_4_Deciduous___________________________
+  # ____________Question_4_Deciduous_Bark-Texture___________________________
 
   def self.question_four_conifer
     system "clear"
@@ -137,7 +154,7 @@ end
     @@response = gets.chomp.to_i
   end
 
-  # ____________Question_5_Conifer_Bark-Color___________________________
+  # ____________Question_5_Deciduous_Bark-Color___________________________
 
   def self.question_five_conifer
     system "clear"
@@ -151,5 +168,22 @@ end
     puts "    5. See a list of x remaining trees."
     @@response = gets.chomp.to_i
   end
+
+  # ____________Question_6_Deciduous_Twigs___________________________
+
+  def self.question_six_conifer
+    system "clear"
+    puts "Your bark is XX! There are XX trees available."
+    puts "What texture are the tree's twigs?"
+    puts "    1. Twigs are smooth."
+    puts "    2. Twigs are hairy."
+    puts "    3. Twigs are rough."
+    puts "    4. Twigs are peeling."
+    puts "    5. Twigs are thorny."
+    puts "    6. Twigs are sticky."
+    puts "    7. See a list of x remaining trees."
+    @@response = gets.chomp.to_i
+  end
+
 
 end
