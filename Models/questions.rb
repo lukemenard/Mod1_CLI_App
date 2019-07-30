@@ -18,7 +18,10 @@ class Question
     @@response = gets.chomp.to_i
   end
 
-# ____________Question_2_Conifer___________________________
+
+#__________________CONIFERS_______________________________
+
+# ____________Question_2_Conifer_Needle-Arrangement___________________________
 
   def self.question_two_conifer
     system "clear"
@@ -36,37 +39,55 @@ class Question
     @@response = gets.chomp.to_i
   end
 
-# ____________Question_3_Conifer___________________________
+# ____________Question_3_Conifer_Cones___________________________
 
 def self.question_three_conifer
   system "clear"
-  puts "Your tree is a conifer! There are XX available conifers."
-  puts "The way a conifer's needles are arranged can help you identify the species."
-  puts "A conifer can have individual or clustered needles, called fasciles."
-  puts "Needles can also be flat or sharp."
-  puts "What needle arrangement does your tree have?"
-  puts "    1. Needles are in clusters of 2-3."
-  puts "    2. Needles are in clusters of 5."
-  puts "    3. Needles are flat."
-  puts "    4. Needles are sharp."
-  puts "    5. Needles are scaled."
+  puts "Your needles are XX! There are XX trees available."
+  puts "A conifer's 'fruit' can be a woody or papery cone, or the tree can have berries."
+  puts "What kind of cones does your tree have?"
+  puts "    1. Cones are woody."
+  puts "    2. Cones are papery."
+  puts "    3. The tree has berries."
+  puts "    4. See a list of x remaining trees."
+  @@response = gets.chomp.to_i
+end
+
+
+# ____________Question_4_Conifer_Bark-Texture___________________________
+
+def self.question_four_conifer
+  system "clear"
+  puts "Your cones are XX! There are XX trees available."
+  puts "A tree's bark can be very distinctive. Bark can be smooth or bumpy, be furrowed with deep ridges, have scales, or be peeling and papery."
+  puts "What kind of bark does your tree have?"
+  puts "    1. Bark is smooth."
+  puts "    2. Bark is bumpy."
+  puts "    3. Bark is furrowed."
+  puts "    4. Bark is scaled."
+  puts "    5. Bark is peeling."
   puts "    6. See a list of x remaining trees."
+  @@response = gets.chomp.to_i
+end
+
+# ____________Question_5_Conifer_Bark-Color___________________________
+
+def self.question_five_conifer
+  system "clear"
+  puts "Your bark is XX! There are XX trees available."
+  puts "The color of tree bark also varies broadly."
+  puts "What color bark does your tree have?"
+  puts "    1. Bark is brown."
+  puts "    2. Bark is gray-brown."
+  puts "    3. Bark is gray."
+  puts "    4. Bark is red-brown."
+  puts "    5. See a list of x remaining trees."
   @@response = gets.chomp.to_i
 end
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+#__________________Deciduous_______________________________
 
 # ____________Question_2_Deciduous___________________________
 
