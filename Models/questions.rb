@@ -89,12 +89,67 @@ end
 
 #__________________Deciduous_______________________________
 
-# ____________Question_2_Deciduous___________________________
+# ____________Question_2_Deciduous_Leaf-Arrangement___________________________
 
   def self.question_two_deciduous
     puts "Your tree is deciduous! There XX available deciduous trees."
     puts "The way a tree's leaves are arranged can help you identify the species."
+    puts "What leaf arrangement does your tree have?"
+    puts "    1. Leaves are opposite."
+    puts "    2. Leaves are alternate."
+    puts "    3. Leaves are whorled."
+    puts "    4. Leaves are basal."
+    puts "    5. See a list of x remaining trees."
+    @@response = gets.chomp.to_i
   end
 
+  # ____________Question_3_Deciduous_Leaf-Shape___________________________
+
+  def self.question_three_deciduous
+    puts "Your leaves are XX! There XX trees available."
+    puts "The shape of a leaf can also be very distinctive."
+    puts "What shape are your leaves?"
+    puts "    1. Leaves are pinnate."
+    puts "    2. Leaves are narrow."
+    puts "    3. Leaves are deltoid."
+    puts "    4. Leaves are orbicular."
+    puts "    5. Leaves are oblanceolate."
+    puts "    6. Leaves are palmate."
+    puts "    7. Leaves are lobed."
+    puts "    8. See a list of x remaining trees."
+    @@response = gets.chomp.to_i
+  end
+
+  # ____________Question_4_Deciduous___________________________
+
+  def self.question_four_conifer
+    system "clear"
+    puts "Your cones are XX! There are XX trees available."
+    puts "A tree's bark can be very distinctive."
+    puts "Bark can be smooth or bumpy, be furrowed with deep ridges, have scales, or be peeling and papery."
+    puts "What kind of bark does your tree have?"
+    puts "    1. Bark is smooth."
+    puts "    2. Bark is bumpy."
+    puts "    3. Bark is furrowed."
+    puts "    4. Bark is scaled."
+    puts "    5. Bark is peeling."
+    puts "    6. See a list of x remaining trees."
+    @@response = gets.chomp.to_i
+  end
+
+  # ____________Question_5_Conifer_Bark-Color___________________________
+
+  def self.question_five_conifer
+    system "clear"
+    puts "Your bark is XX! There are XX trees available."
+    puts "The color of tree bark also varies broadly."
+    puts "What color bark does your tree have?"
+    puts "    1. Bark is brown."
+    puts "    2. Bark is gray-brown."
+    puts "    3. Bark is gray."
+    puts "    4. Bark is red-brown."
+    puts "    5. See a list of x remaining trees."
+    @@response = gets.chomp.to_i
+  end
 
 end
