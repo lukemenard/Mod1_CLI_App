@@ -85,7 +85,7 @@ def self.question_five_conifer
   @@response = gets.chomp.to_i
 end
 
-# ____________Question_6_Coniferous_Twigs___________________________
+# ____________Question_6_Conifer_Twigs___________________________
 
 def self.question_six_conifer
   system "clear"
@@ -109,6 +109,7 @@ end
 # ____________Question_2_Deciduous_Leaf-Arrangement___________________________
 
   def self.question_two_deciduous
+    system "clear"
     puts "Your tree is deciduous! There XX available deciduous trees."
     puts "The way a tree's leaves are arranged can help you identify the species."
     puts "What leaf arrangement does your tree have?"
@@ -123,6 +124,7 @@ end
   # ____________Question_3_Deciduous_Leaf-Shape___________________________
 
   def self.question_three_deciduous
+    system "clear"
     puts "Your leaves are XX! There XX trees available."
     puts "The shape of a leaf can also be very distinctive."
     puts "What shape are your leaves?"
