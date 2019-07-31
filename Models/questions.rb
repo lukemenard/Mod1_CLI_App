@@ -139,7 +139,7 @@ end
 
   # ____________Question_4_Deciduous_Bark-Texture___________________________
 
-  def self.question_four_conifer
+  def self.question_four_deciduous
     system "clear"
     puts "Your cones are XX! There are XX trees available."
     puts "A tree's bark can be very distinctive."
@@ -156,7 +156,7 @@ end
 
   # ____________Question_5_Deciduous_Bark-Color___________________________
 
-  def self.question_five_conifer
+  def self.question_five_deciduous
     system "clear"
     puts "Your bark is XX! There are XX trees available."
     puts "The color of tree bark also varies broadly."
@@ -171,7 +171,7 @@ end
 
   # ____________Question_6_Deciduous_Twigs___________________________
 
-  def self.question_six_conifer
+  def self.question_six_deciduous
     system "clear"
     puts "Your bark is XX! There are XX trees available."
     puts "What texture are the tree's twigs?"
@@ -185,5 +185,55 @@ end
     @@response = gets.chomp.to_i
   end
 
+  # ____________Question_7_Deciduous_Fruits___________________________
+
+  def self.question_seven_deciduous
+    system "clear"
+    puts "Your twigs are XX! There are XX trees available."
+    puts "What type of fruit does the tree have?"
+    puts "    1. The tree has capsules."
+    puts "    2. The tree has dry seed."
+    puts "    3. The tree has acorns."
+    puts "    4. The tree has samaras."
+    puts "    5. The tree has fleshy fruit."
+    puts "    6. The tree has cones."
+    puts "    7. See a list of x remaining trees."
+    @@response = gets.chomp.to_i
+  end
+
+  # ____________Question_8_Deciduous_Flower-Shape___________________________
+
+  def self.question_eight_deciduous
+    system "clear"
+    puts "Your fruits are XX! There are XX trees available."
+    puts "What shape are the tree's flowers?"
+    puts "    1. Flowers are inconspicuous."
+    puts "    2. Flowers are round."
+    puts "    3. Flowers are star or cross shaped."
+    puts "    4. Flowers are bell-shaped."
+    puts "    5. Flowers are cup-shaped."
+    puts "    6. Flowers are another shape."
+    puts "    7. See a list of x remaining trees."
+    @@response = gets.chomp.to_i
+  end
+
+  # ____________Question_9_Deciduous_Flower-Color___________________________
+
+  def self.question_nine_deciduous
+    system "clear"
+    puts "Your flowers are XX! There are XX trees available."
+    puts "What color are the tree's flowers?"
+    puts "    1. Flowers are yellow."
+    puts "    2. Flowers are red."
+    puts "    3. Flowers are white."
+    puts "    4. Flowers are orange."
+    puts "    5. Flowers are purple."
+    puts "    6. Flowers are blue."
+    puts "    7. Flowers are brown."
+    puts "    8. Flowers are green."
+    puts "    9. Flowers are pink."
+    puts "    10. See a list of x remaining trees."
+    @@response = gets.chomp.to_i
+  end
 
 end

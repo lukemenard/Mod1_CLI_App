@@ -48,7 +48,7 @@ class Application
   self.main_menu
 
 
-# ____________Question_1___________________________
+# ____________Question_1_Deciduous/Coniferous___________________________
 
   def self.question_one
     case @@response
@@ -70,7 +70,9 @@ class Application
   Application.question_one
 
 
-  # ____________Question_2___________________________
+#####_________________CONIFERS_______________________####
+
+  # ____________Question_2_Conifer_Needle-Arrangement___________________________
 
   def self.question_two_conifer
     case @@response
@@ -100,7 +102,7 @@ class Application
 
 
 
-# ____________Question_3_Conifer___________________________
+# ____________Question_3_Conifer_Cones___________________________
 
   def self.question_three_conifer
     case @@response
@@ -122,7 +124,7 @@ class Application
   end
   Application.question_three_conifer
 
-  # ____________Question_4_Conifer___________________________
+  # ____________Question_4_Conifer_Bark-Texture___________________________
 
     def self.question_four_conifer
       case @@response
@@ -151,7 +153,7 @@ class Application
     Application.question_four_conifer
 
 
-    # ____________Question_5_Conifer___________________________
+    # ____________Question_5_Conifer_Bark-Color___________________________
 
       def self.question_five_conifer
         case @@response
@@ -176,5 +178,97 @@ class Application
       end
       Application.question_five_conifer
 
+      # ____________Question_6_Conifer_Twigs___________________________
+
+        def self.question_six_conifer
+          case @@response
+          when 1
+            @@twigs = "Smooth"
+            Question.question_six_conifer
+          when 2
+            @@twigs = "Hairy"
+            Question.question_six_conifer
+          when 3
+            @@twigs = "Rough"
+            Question.question_six_conifer
+          when 4
+            @@twigs = "Peeling"
+            Question.question_six_conifer
+          when 5
+            @@twigs = "Thorny"
+            Question.question_six_conifer
+          when 6
+            @@twigs = "Sticky"
+            Question.question_six_conifer
+          when 7
+            Help.list_all_trees
+          else
+            puts "Please enter a number between 1 and 7"
+            self.question_six_conifer
+          end
+        end
+        Application.question_six_conifer
+
+####__________________DECIDUOUS_______________________________####
+
+# ____________Question_2_Deciduous_Leaf-Arrangement___________________________
+
+def self.question_two_deciduous
+  case @@response
+  when 1
+    @@leaves = "Opposite"
+    Question.question_three_deciduous
+  when 2
+    @@leaves = "Alternate"
+    Question.question_three_deciduous
+  when 3
+    @@leaves = "Whorled"
+    Question.question_three_deciduous
+  when 4
+    @@leaves = "Basale"
+    Question.question_three_deciduous
+  when 5
+    Help.list_all_trees
+  else
+    puts "Please enter a number between 1 and 5"
+    self.question_two_deciduous
+  end
+end
+Application.question_two_deciduous
+
+
+# ____________Question_3_Deciduous_Leaf-Shape___________________________
+
+def self.question_three_deciduous
+  case @@response
+  when 1
+    @@leaf_shape = "Pinnate"
+    Question.question_four_deciduous
+  when 2
+    @@leaf_shape = "Narrow"
+    Question.question_four_deciduous
+  when 3
+    @@leaf_shape = "Deltoid"
+    Question.question_four_deciduous
+  when 4
+    @@leaf_shape = "Orbicular"
+    Question.question_four_deciduous
+  when 5
+    @@leaf_shape = "Oblanceolate"
+    Question.question_four_deciduous
+  when 6
+    @@leaf_shape = "Palmate"
+    Question.question_four_deciduous
+  when 7
+    @@leaf_shape = "Lobed"
+    Question.question_four_deciduous
+  when 8
+    Help.list_all_trees
+  else
+    puts "Please enter a number between 1 and 8"
+    self.question_three_deciduous
+  end
+end
+Application.question_three_deciduous
 
 end
